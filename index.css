@@ -36,13 +36,13 @@ body {
 }
 #activities-section {
     display: flex;    
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .frame {
     border: 4px solid #ccc;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 20vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -56,7 +56,7 @@ body {
 }
 .activities-txt {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: clamp(14px, 2vw, 20px);
 }
 #shamrock {
     font-size: 32px;
@@ -64,11 +64,12 @@ body {
 }
 .containers {
     border: 3px solid rgb(224, 146, 28);
-    border-radius: 15%;
+    border-radius: 5%;
     background: rgba(58, 172, 29, 0.5);
-    margin: 50px;
-    padding: 30px;
-    width: 25%;
+    margin: 5px;
+    padding: 10px 20px;
+    width: 300%;
+    height: 500px;
     text-shadow: 3px 3px 5px rgb(77, 77, 77);
 }
 #first-img {
